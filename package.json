@@ -1,8 +1,8 @@
 {
   "name": "hubot-piazza-slack",
   "description": "Unfurls Piazza post references (e.g. @1234)",
-  "version": "0.0.0",
-  "author": "Aleks Kamko <aykamko@gmail.com>",
+  "version": "0.1.0",
+  "author": "aykamko",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
   "repository": {
