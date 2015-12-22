@@ -1,4 +1,4 @@
-# hubot-piazza-slack
+# [hubot-piazza-slack](https://www.npmjs.com/package/hubot-piazza-slack)
 
 Unfurls Piazza post references (e.g. @1234)
 

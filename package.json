@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-piazza-slack.git"
+    "url": "git://github.com/aykamko/hubot-piazza-slack.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-piazza-slack/issues"
+    "url": "https://github.com/aykamko/hubot-piazza-slack/issues"
   },
   "dependencies": {
     "request": "^2.67.0",
