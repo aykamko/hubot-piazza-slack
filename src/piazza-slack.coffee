@@ -12,8 +12,8 @@
 # Author:
 #   aykamko
 
-normalize = require('./normalize')
-Piazza = require('./piazza')
+normalize = require('./lib/normalize')
+Piazza = require('./lib/piazza')
 
 module.exports = (robot) ->
   piazza = new Piazza(
