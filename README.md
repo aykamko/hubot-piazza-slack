@@ -20,7 +20,4 @@ Then add **hubot-piazza-slack** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-```
-user1>> hubot hello
-hubot>> hello!
-```
+![yas](example.png)
