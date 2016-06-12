@@ -18,17 +18,9 @@ Then add **hubot-piazza-slack** to your `external-scripts.json`:
 ]
 ```
 
-#### Node.js version sanity checks
+## Prerequisites
 
-Ensure that your server (such as Heroku) has a "reasonable" version of Node.js (such as `v5.3.0`). You can check your local version via `node -v` or `heroku run node -v` to check your Heroku server's version. 
-
-To update Node.js for your Heroku server, you must edit `package.json` and change the version of node (the default from `hubot-slack` is `0.10.x` which is not acceptable).
-
-```
-"engines": {
-  "node": "5.3.x"
-}
-```
+Ensure that your server (e.g. Heroku) has a version of Node.js that is `>= 4.1.0`. You can check your local version via `node -v`. Run `heroku run node -v` to determine the Node version on your Heroku app.
 
 ## Configuration
 
