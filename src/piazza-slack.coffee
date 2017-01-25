@@ -93,18 +93,6 @@ module.exports = (robot) ->
         })
 
         # finally, Hubot posts unfurled piazza post
-        
-        
-
-        # robot.adapter.client._apiCall("chat.postMessage", {
-        #   # channel: msg.message.rawMessage.channel,
-        #   channel: msg.message.user.room,
-        #   text: "@#{postID} attached:",
-        #   as_user: true,
-        #   attachments: JSON.stringify([msgAttachment]),
-        # })
-
-        #console.log robot.adapter.client.web.chat.makeApi
 
         robot.adapter.client.web.chat.makeAPICall("chat.postMessage", {
           channel: msg.message.user.room,
